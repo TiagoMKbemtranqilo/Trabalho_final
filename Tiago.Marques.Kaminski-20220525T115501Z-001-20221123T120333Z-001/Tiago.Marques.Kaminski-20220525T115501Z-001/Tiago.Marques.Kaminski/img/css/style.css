@@ -1,0 +1,19 @@
+.cabecalho{
+    border: 5px dotted black;
+    
+}
+.imagem{
+    border: 5px solid black;
+    
+}
+.logo{
+    border: 5px  solid black;
+}.caramujo{
+    border: 4px dashed black ;
+}
+.cabecalhosobre{ border: 5px solid rgb(233, 8, 8);
+
+}
+.cabecalhocontato{border: 5px solid rgb(233, 8, 8);}
+.caramujo{ border: 20px solid rgb(233, 8, 8);}
+

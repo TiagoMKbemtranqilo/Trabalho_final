@@ -1,0 +1,17 @@
+body
+{
+    background-color: darkolivegreen;
+             font-family: Verdana, Geneva, Tahoma, sans-serif;
+           }
+           h1
+           {
+background-color: darkorange;
+color: darkolivegreen;
+           }
+           h2{
+               color:darkorange;
+           }
+           h3{
+            background-color:rgba(146, 8, 8, 0.719);
+            color:rgb(0, 0, 0)
+           }

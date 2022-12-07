@@ -1,0 +1,204 @@
+body{ /*altera propriedades gerais do conteudo html*/
+    
+    font-family: Arial, Helvetica, sans-serif;
+    width: 95%;/* largura total do corpo do texto*/
+    margin: 0 auto;
+    
+          
+}
+.sheader {
+    border:5px double #000000; 
+    height: 30px;
+} 
+.sheader a{
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 25px;
+    font-family: serif;
+}
+.sheader a:hover {
+    background-color:  darkred;
+    color: black;
+}
+.theader {
+    border:5px double #000000; 
+    height: 30px;
+}
+.theader a{
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 25px;
+    font-family: serif;
+}
+.theader a:hover {
+    background-color:  darkred;
+    color: black;
+}
+header{ /*define o cabeçalho do site*/
+    font-family:serif;
+    background-color: red;
+    border-radius: 10px;/*arredonda os cantos de um elemento*/
+    margin-top: 5px; 
+    overflow: hidden;
+  background-color:whitesmoke;
+  padding: 5px 5px;
+  border: 5px double black;
+  height: 200px;
+ 
+  
+}
+header a:hover {
+    background-color:  darkred;
+    color: black;
+}
+header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+
+  }
+  header a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  .theader a.active1 {
+    background-color: dodgerblue;
+    color: white;
+  }
+  .sheader a.active2 {
+    background-color: dodgerblue;
+    color: white;
+  }
+  .header-right {
+    float: right;
+  }
+
+.titulo{
+    font-size: 35px;
+    text-align: center;
+   
+
+}
+.logo img{/*alteração da div logo especificanmente na tag img*/
+    width:7%;/*muda o tamanho da imagem*/
+    padding-top: 10px;
+    position:absolute;
+    top: 5px;
+}
+.navegacao{
+    overflow: hidden;/*esconce a barra de rolagem*/
+    
+} 
+.parque img{
+   width:600px; 
+   float:left;
+}
+.navegacao a/*altera os hyperlinks da classe navegacao*/{
+color:rgb(0, 0, 0);
+background-color: whitesmoke;
+float:left;/*posiciona o conteudo em relação a direita*/
+text-decoration:underline;
+font-weight: bold;
+padding: 10px;
+border: 3px double black;
+
+} 
+.navegacao a:hover{
+    color: black;
+    background-color: darkred;
+}
+.parque a:hover{
+    color: black;
+    background-color: darkred;
+}
+.santa img{
+    width: 500px;
+}
+.parque a {
+    color:rgb(0, 0, 0);
+text-decoration:none;
+font-size: 25px;
+font-weight: bold;
+width: 40%;
+padding: 10px;
+}
+
+
+.matriz img{
+    width:600px; 
+    
+}
+.parque{
+
+    background-color: whitesmoke;
+    text-align: justify;/*texto justificado*/
+    padding: 7px;/*pro texto n ficar colado no card*/
+    margin: 2px 2px 2px 2px;/*define margens em relação ao body, respecitivamente: cima direita baixo esquerda*/
+    border-radius: 10px;
+    border: 5px double black;
+    width: 60%;
+}
+.introdução{
+    float:left;
+    background-color: whitesmoke;
+    text-align: justify;/*texto justificado*/
+    padding: 7px;/*pro texto n ficar colado no card*/
+    margin: 2px 2px 2px 2px;/*define margens em relação ao body, respecitivamente: cima direita baixo esquerda*/
+    border-radius: 10px;
+    border: 5px double black;
+    width: 60%;
+    
+}
+
+.matriz{
+    float:left;
+    background-color: whitesmoke;
+    text-align: justify;/*texto justificado*/
+    padding: 7px;/*pro texto n ficar colado no card*/
+    margin: 2px 2px 2px 2px;/*define margens em relação ao body, respecitivamente: cima direita baixo esquerda*/
+    border-radius: 10px;
+    border: 5px double black;
+     width: 60%;
+}
+.santa{
+  
+    background-color: whitesmoke;
+    text-align: justify;/*texto justificado*/
+    padding: 7px;/*pro texto n ficar colado no card*/
+    margin: 2px 2px 2px 2px;/*define margens em relação ao body, respecitivamente: cima direita baixo esquerda*/
+    border-radius: 10px;
+    border: 5px double black;
+    width: 60%;
+    text-align: justify;
+    float:left;
+}
+.principal{
+    display:flex;
+    flex-direction: column;
+    
+}
+
+
+.rodape{
+    color:black;
+    font-size: 10px;
+    text-align: center;
+}
+@media screen and(max-width:600px){
+    .principal,.conteudo{
+        width: 100%;
+        flex-direction: row;
+        padding: 0px;
+        
+    }
+}
